@@ -27,3 +27,18 @@ THEN the game is over
 WHEN the game is over
 THEN I can save my initials and my score
 ```
+
+
+
+<img width="1440" alt="Screen Shot 2023-08-01 at 8 13 00 PM" src="https://github.com/julissaortiz/tappiapi-quiz/assets/126351385/3cab2d87-634a-4859-8418-ab4d96fae1b5">
+
+
+
+
+
+
+
+
+
+
+
