@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>JavaScript Fundamentals Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="./highscore.html">View Highscores</a>
+      <p>Timer: <span id="Timer">0</span></p>
+    </header>
+
+    <section>
+      <div id="starter-page" class="visible">
+        <h1>Coding Quiz Challenge</h1>
+        <p>
+          Try to answer the following code related questions within the time
+          limit. Keep in mind that incorrect answers will pentalize your score
+          by 5 seconds.
+        </p>
+        <button id="start-quiz">Start Quiz</button>
+      </div>
+      <div id="questions" class="hide">
+        <h2 id="questions-title"></h2>
+        <div id="choices" class="choices"></div>
+      </div>
+      <div id="last-screen" class="hide">
+        <h2>You have completed the Quiz</h2>
+        <p>Final Score: <span id="Final-Score"></span></p>
+        <div>
+          <p>Enter Initials</p>
+          <input id="Initials" type="text" />
+          <button id="submit">Submit</button>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="./questions.js"></script>
+  <script src="./script.js"></script>
+</html>
